@@ -1,0 +1,182 @@
+version: "1"
+battlegrounds:
+  - name: "Alterac Pass"
+    thumbnail: "https://static.heroesofthestorm.com/images/battlegrounds/maps/alterac-pass/header-mobile-aeda85c880.jpg"
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 180
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 80
+  - name: "Volskaya Foundry"
+    thumbnail: "https://static.heroesofthestorm.com/images/battlegrounds/maps/volskaya/header-mobile-3d510bddd7.jpg"
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 180
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 180
+      - objective: "Support Camp"
+        spawn: 60
+        respawn: 180
+      - objective: "Turret Camp"
+        spawn: 60
+        respawn: 150
+  - name: "Warhead Junction"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 175
+      - objective: "Bruiser Camp"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Braxis Holdout"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 90
+        respawn: 130
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Towers of Doom"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 110
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Pumpkin Camp"
+        spawn: 60
+        respawn: 150
+  - name: "Infernal Shrines"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 115
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Battlefield of Eternity"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 105
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Tomb of the Spider Queen"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 30
+        respawn: 15
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Sky Temple"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 120
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Garden of Terror"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 150
+        respawn: 50
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Cursed Hollow"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 50
+      - objective: "Boss"
+        spawn: 300
+        respawn: 300
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Dragon Shire"
+    thumbnail: ""
+    timings:
+      - objective: "Map Objective"
+        spawn: 180
+        respawn: 120
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180
+  - name: "Blackheart's Bay"
+    thumbnail: ""
+    timings:
+      - objective: "Chest spawn"
+        spawn: 90
+        respawn: 180
+      - objective: "Doubloon Camp"
+        spawn: 90
+        respawn: 150
+      - objective: "Bruiser Camp"
+        spawn: 60
+        respawn: 240
+      - objective: "Siege Camp"
+        spawn: 60
+        respawn: 180

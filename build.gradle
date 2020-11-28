@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.nicolasmohr'
+version '1.0-SNAPSHOT'
+
+
+
+//sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.javacord:javacord:3.1.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.3'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.11.3'
+//    implementation 'com.google.code.gson:gson:2.8.6'
+}
