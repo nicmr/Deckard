@@ -1,14 +1,6 @@
 package dev.nicolasmohr.deckard;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.*;
-
 
 public class Battleground {
     public String name;
@@ -27,7 +19,6 @@ public class Battleground {
         this.thumbnail = thumbnail;
     }
 
-
     /**
      * Generates a HashMap from the supplied List<Battlegrounds>, indexed by the .name field for faster lookup
      */
@@ -39,5 +30,3 @@ public class Battleground {
         return battlegroundmap;
     }
 }
-
-
