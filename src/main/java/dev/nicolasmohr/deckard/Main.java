@@ -5,11 +5,9 @@ import org.javacord.api.DiscordApiBuilder;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Optional;
 import java.util.function.BiConsumer;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -20,15 +18,7 @@ public class Main {
         }
 
         String token = args[0];
-
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
-
-        // Add a listener which answers with "Pong!" if someone writes "!ping"
-        api.addMessageCreateListener(event -> {
-            if (event.getMessageContent().equalsIgnoreCase("!ping")) {
-                event.getChannel().sendMessage("Pong!");
-            }
-        });
 
         HashMap<String, Battleground> battlegrounds = Battleground.indexByName(Datasheet.fromFile("data/battlegroundTimings.yaml").battlegrounds);
 
